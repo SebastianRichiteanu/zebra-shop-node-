@@ -1,0 +1,55 @@
+<header>
+	<div id="sct1">
+		<div class="header_row">
+			<div class="header_col"> </div> 
+			<div class="header_col" id="hd_col">  
+				<br> <br> <br> <br> <br> <br> <br> <br> 
+				<img src="img/zebra.png" height="128" width="128" alt="Zebra icon" title="Logo"> 
+				<h2 id="t1"> Zebra Shop </h2> 
+				<img src="img/zebra.png" height="128" width="128" alt="Zebra icon" id="zebr2" title="Logo"> 
+			</div> 
+			<div class="header_col"> </div>
+		</div>
+	</div>
+	<nav class="wrapper">
+		<ul class="menu">
+			<li id="menu1"><a href="/">Home</a></li>
+			<li id="menu2">
+				<div> Branduri </div>
+				<ul class="submenu">
+					<li><a href="branduri#nike">Nike</a></li>
+					<li><a href="branduri#adidas">Adidas</a></li>
+					<li><a href="branduri#jordan">Jordan</a></li>
+					<li><a href="branduri#comme">CDG</a></li>
+					<li><a href="branduri#puma">Puma</a></li>
+					<li><a href="branduri#gucci">Gucci</a></li>
+					<li><a href="branduri#armani">Armani Jeans</a></li>
+				</ul>
+			</li>
+			<li id="menu3">
+				<div>Despre noi</div>
+				<ul class="submenu">
+					<li><a href="contact#anc4">Despre noi</a></li>
+					<li><a href="contact#anc5">Contact</a></li>
+				</ul>
+			</li>
+			<li id="menu4"><a href="aplicatie">Aplicatie</a></li>
+			<li id="menu5"><a href="my_acc">Inregistrare</a></li>
+		</ul>
+			<% if(!locals.username) { %>
+	<form method="post" action="/login">
+		<label>
+				Username: <input type="text" name="username" value="">
+			</label>
+			<label>
+				Parola: <input type="password" name="parola" value="">
+			</label>
+			<input type="submit" value="OK">
+	</form>
+	<% } else { %>
+		Logat: <%= locals.username %>
+		<a href="/logout"> Logout</a>
+	<% } %>
+	<hr/>	
+    </nav>
+ </header>

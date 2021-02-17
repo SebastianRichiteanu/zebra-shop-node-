@@ -1,0 +1,10 @@
+.pz {
+	display:inline-flex;
+}
+.pz li {
+	padding: 10px;
+}
+.brand {
+	font-weight:bold;
+	font-size:2em;
+}

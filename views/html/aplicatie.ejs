@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+	<link rel="stylesheet" type="text/css" href="/css/aplicatie.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
+	<link rel='icon' href='/img/favicon.ico' type='image/x-icon'/>
+	<title> Aplicatie </title>
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "contact" content = "Email,phone">
+	<meta name = "description" content = "Prima Pagina">
+	<meta name = "keywords" content = "produse,promotii">
+	<meta charset = "UTF-8">
+	<script src="js/ejs.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/tot.js"></script>
+	
+  </head>
+  <body>
+	<%- include("../fragmente/header")  %>
+	<main>
+		
+	<div class="grid_total">
+		<div class="grid-item" id="t_col1"> </div>
+		
+		<div class="grid-item" id="t_col2">
+			<div id="containter_butoane">
+				<button id="sorteaza_nume"> Sorteaza perechi dupa nume </button>
+				<button id="sorteaza_pret"> Sorteaza perechi dupa pret </button>
+				<button id="revenire"> Sterge toate filtrele </button> 
+				
+				<br> <br>
+				
+				<label for="gen"> Gen:  </label>
+				<select id="gen" name="gen">
+					<option value="0" id="gen0"> - </option>
+					<option value="1" id="gen1"> Barbati </option>
+					<option value="2" id="gen2"> Femei </option>
+				</select>
+				<input type="submit" id="filtre">
+				
+				
+			</div>
+		
+		
+			<h1>JSON</h1>
+			<p id="stoc"> Produse in stoc: 44</p>
+			<div class="afis" id="afisTemplate"></div>
+		</div>
+		
+		
+		<div class="grid-item" id="t_col3"> </div>
+	</div>
+
+	
+	</main>
+	
+	<%- include("../fragmente/footer") %>
+  </body>

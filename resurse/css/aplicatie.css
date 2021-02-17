@@ -1,0 +1,11 @@
+.afis{
+	border:2px solid skyblue;
+	padding:0.7em;
+}
+
+.templ_pereche{
+	border:1px solid grey;
+	padding:0.4em;
+	background: rgba(255,255,255,0.5);
+	
+}

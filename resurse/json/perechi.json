@@ -1,0 +1,196 @@
+{
+  "lastId": 7,
+  "perechi": [
+    {
+      "id": 1,
+      "nume": "720",
+      "culoare": "gri",
+      "marci": "nike",
+      "pret": 650,
+      "sex": 1,
+      "marimi": "40,41,42,42.5"
+    },
+    {
+      "id": 2,
+      "nume": "AF1",
+      "culoare": "alb",
+      "marci": "nike",
+      "pret": 420,
+      "sex": 1,
+      "marimi": "41,42,42.5,44"
+    },
+    {
+      "id": 3,
+      "nume": "SF1",
+      "culoare": "portocaliu",
+      "marci": "nike",
+      "pret": 700,
+      "sex": 1,
+      "marimi": "42,42.5,43,43.5"
+    },
+    {
+      "id": 4,
+      "nume": "Ultraboost 18",
+      "culoare": "gri",
+      "marci": "Adidas",
+      "pret": 350,
+      "sex": 1,
+      "marimi": "40,41,42,42.5"
+    },
+    {
+      "id": 5,
+      "nume": "Pharrell Williams",
+      "culoare": "galben",
+      "marci": "Adidas, Pharrell Williams",
+      "pret": 850,
+      "sex": 1,
+      "marimi": "40,41,42,42.5"
+    },
+    {
+      "id": 6,
+      "nume": "Erdiga",
+      "culoare": "negru",
+      "marci": "Adidas",
+      "pret": 300,
+      "sex": 1,
+      "marimi": "42"
+    },
+    {
+      "id": 7,
+      "nume": "Jordan 1",
+      "culoare": "albastru",
+      "marci": "Jordan",
+      "pret": 430,
+      "sex": 1,
+      "marimi": "42,43,44,45"
+    },
+    {
+      "id": 8,
+      "nume": "Jordan 13",
+      "culoare": "gri",
+      "marci": "Jordan",
+      "pret": 600,
+      "sex": 1,
+      "marimi": "42,43,43.5,44"
+    },
+    {
+      "id": 9,
+      "nume": "Jordan x Dior",
+      "culoare": "negru",
+      "marci": "Jordan, Dior",
+      "pret": 1300,
+      "sex": 1,
+      "marimi": "42,43"
+    },
+    {
+      "id": 10,
+      "nume": "70s",
+      "culoare": "negru",
+      "marci": "Comme des garcons",
+      "pret": 500,
+      "sex": 1,
+      "marimi": "40,41,42"
+    },
+    {
+      "id": 11,
+      "nume": "70s LOW",
+      "culoare": "alb",
+      "marci": "Comme des garcons",
+      "pret": 600,
+      "sex": 1,
+      "marimi": "40,41,42,42.5,43"
+    },
+    {
+      "id": 12,
+      "nume": "70s HI TOP",
+      "culoare": "alb",
+      "marci": "Comme des garcons",
+      "pret": 700,
+      "sex": 1,
+      "marimi": "40,42"
+    },
+    {
+      "id": 13,
+      "nume": "Axelion",
+      "culoare": "negru",
+      "marci": "Puma",
+      "pret": 500,
+      "sex": 1,
+      "marimi": "40,41"
+    },
+    {
+      "id": 14,
+      "nume": "Pacer",
+      "culoare": "negru",
+      "marci": "Puma",
+      "pret": 350,
+      "sex": 2,
+      "marimi": "38,39,40"
+    },
+    {
+      "id": 15,
+      "nume": "Clyde",
+      "culoare": "negru",
+      "marci": "Puma",
+      "pret": 550,
+      "sex": 1,
+      "marimi": "40,40.5,41,42"
+    },
+    {
+      "id": 16,
+      "nume": "Ace",
+      "culoare": "alb",
+      "marci": "Gucci",
+      "pret": 550,
+      "sex": 1,
+      "marimi": "40,41,42"
+    },
+    {
+      "id": 17,
+      "nume": "Ace Bee",
+      "culoare": "alb",
+      "marci": "Gucci",
+      "pret": 450,
+      "sex": 2,
+      "marimi": "38,38.5,39,40"
+    },
+    {
+      "id": 18,
+      "nume": "Ace Snake",
+      "culoare": "alb",
+      "marci": "Gucci",
+      "pret": 550,
+      "sex": 1,
+      "marimi": "40,41,42,43"
+    },
+    {
+      "id": 19,
+      "nume": "Sokora",
+      "culoare": "verde",
+      "marci": "Armani Jeans",
+      "pret": 650,
+      "sex": 1,
+      "marimi": "40,41,42,43"
+    },
+    {
+      "id": 20,
+      "nume": "Canvas",
+      "culoare": "albastru",
+      "marci": "Armani Jeans",
+      "pret": 550,
+      "sex": 1,
+      "marimi": "41,42,43"
+    },
+    {
+      "id": 21,
+      "nume": "Metal",
+      "culoare": "metalic",
+      "marci": "Armani Jeans",
+      "pret": 850,
+      "sex": 1,
+      "marimi": "40,41,42,43,44"
+    }
+  ]
+}
+
+

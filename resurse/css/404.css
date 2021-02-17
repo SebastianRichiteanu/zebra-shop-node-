@@ -1,0 +1,13 @@
+.n404 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+#sad {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+	

@@ -1,0 +1,25 @@
+.tranz {
+	
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:3px;
+	background:white;
+	color:black;
+	padding:5%;
+	transition: background 2s linear, color 2s linear;
+}
+.tranz:hover {
+	color:white;
+	background:black;
+}
+.afis {
+	font-size:25px;
+}
+input {
+	width: 15%;
+	padding: 2px;
+	margin: 10px;
+}
+input[type=submit] {
+	padding:5px;
+}

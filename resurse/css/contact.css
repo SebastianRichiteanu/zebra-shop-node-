@@ -1,0 +1,41 @@
+th,td{
+    border:1px solid black;
+    padding:5px;
+}
+td:empty{
+    padding:20px;
+}
+table{
+    border-collapse:collapse;
+    empty-cells:show;
+}
+#id1h1 {
+	padding-top:30px;
+}
+div#container {
+	display:flex;
+}
+div.coloana {
+	float:left;
+	width:20%;
+	box-sizing:border-box;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:2%;
+	padding-right:2%;
+}
+div#nr1{
+	order:1;
+	background:black;
+	color:white;
+}
+div#nr2{
+	order:2;
+	background:white;
+	color:black;
+}
+div#nr3{
+	order:3;
+	background:black;
+	color:white;
+}

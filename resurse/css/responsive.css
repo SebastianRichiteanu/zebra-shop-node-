@@ -1,0 +1,43 @@
+@media screen and (min-width:700px) and (max-width:1000px){
+	p.text{
+		float:none;
+		width:100%;
+	}
+	figure.img-wrap{
+		width:100%;
+	}
+	ul.menu>li{
+		width:25%;
+	}
+	.pz li figure img{
+		width:8em;
+		height:6em;
+	}
+		
+}
+@media screen and (min-width:350px) and (max-width:700px){
+	p.text{
+	float:none;
+	width:100%;
+	}
+	figure.img-wrap{
+	width:100%;
+	}
+	.pz li figure img{
+		width:4em;
+		height:3em;
+	}
+	
+	ul.menu>li{
+		 width:25%;
+	}
+	#zebr2 {
+		visibility: hidden;
+	}
+	img#anc0 {
+		visibility:hidden;}
+	#galeria {
+		visibility:hidden;
+	}
+	
+}

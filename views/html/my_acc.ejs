@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+	<link rel="stylesheet" type="text/css" href="/css/my_acc.css">
+	<link rel="stylesheet" type="text/css" href="/css/all.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/responsive.css"/>
+	<link rel='icon' href='/img/favicon.ico' type='image/x-icon'/>
+	<title> My account </title>
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name = "contact" content = "Email,phone">
+	<meta name = "description" content = "Prima Pagina">
+	<meta name = "keywords" content = "produse,promotii">
+		<meta charset = "UTF-8">
+	<script src="js/tot.js"></script>
+  </head>
+  <body>
+	<%- include("../fragmente/header")  %>
+	
+	<main>
+		
+	<div class="grid_total">
+		<div class="grid-item" id="t_col1"> </div>
+		
+		<div class="grid-item" id="t_col2">
+			<% if(!locals.rsstatus) { %><!-- verific daca status e definit-->
+		<form method="post" action="/inreg" class="date">
+			<p>
+			<label>
+				Username: <input type="text" name="username" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Nume: <input type="text" name="nume" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Marci preferate(separate cu virgula): <input type="text" name="marci" value="" size="50">
+			</label>
+			</p>
+			<p>
+			<label>
+				Parola: <input type="password" name="parola" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Reintroduceti parola: <input type="password" name="rparola" value="">
+			</label>
+			</p>
+			<p>
+			<label>
+				Email: <input type="text" name="email" value=""  size="50">
+			</label>
+			</p>
+			<p>
+			<label>
+				Varsta: <input type="number" name="varsta" value=""  size="3">
+			</label>
+			</p>
+			
+			<p>		
+			<input type="submit" value="Submit">
+			</p>
+		</form>
+		<% } else if(rsstatus=="ok"){ %>
+			<p>Date introduse</p>
+		<% } else {%>
+			<p>Eroare</p>
+		<% } %>
+  
+			
+	
+			<div class="tranz">
+				Welcome !
+			</div>
+		</div>
+	
+		<div class="grid-item" id="t_col3"> </div>
+	</div>
+	
+	
+	
+	
+	</main>
+	
+	<%- include("../fragmente/footer") %>
+  </body>
